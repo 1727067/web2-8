@@ -134,4 +134,4 @@ setCookie('lastDate', current_time.toString(), 7);
 
 
 document.getElementById('form').onsubmit = function(){
-  window.alert('
+  window.alert('押されました!');
