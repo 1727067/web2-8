@@ -133,4 +133,5 @@ var current_time = new Date();
 setCookie('lastDate', current_time.toString(), 7);
 
 
-document.getElementById
+document.getElementById('form').onsubmit = function(){
+  window.alert('
