@@ -134,4 +134,5 @@ setCookie('lastDate', current_time.toString(), 7);
 
 
 document.getElementById('form').onsubmit = function(){
-  window.alert('押されました!');
+  window.alert(document.getElementById('form').word.value);
+  return false;
